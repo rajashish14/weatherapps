@@ -1,6 +1,6 @@
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 body{
     background: #222;
@@ -34,6 +34,7 @@ body{
     width: 80%;
     border-radius: 15px;  
     border-color: transparent;
+    outline: none;
 }
 .search button{
     height: 40px;
@@ -44,6 +45,9 @@ body{
     border-radius: 20px;
     border-color: transparent;
     cursor: pointer;
+}
+.search button:hover{
+    background-color: antiquewhite;
 }
 .search button img{
     height: 20px;
